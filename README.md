@@ -22,7 +22,7 @@ the editor `2021.3.11f1` (in official releases, the `LTS` version).<br>
 Download also the most recent stable release of
 [ML-Agents](https://github.com/Unity-Technologies/ml-agents).
 <p align="center">
-    <img src="./media/img_00.png" width="50%">
+    <img src="./media/img_00.png" width="60%">
 </p>
 
 Open Unity Hub and import the folder `Project` from the previously downloaded
@@ -42,7 +42,7 @@ pip install -e ml-agents-envs
 
 ## Train the Agents
 Move to the opened Unity project and, down-left, navigate to 
-`Project > Assets > ML-Agents > Examples > 3DBall > Scenes`.<br> 
+`Project > Assets > ML-Agents > Examples > 3DBall > Scenes`.
 Double-click the folder `Scenes` and then double-click the file `3DBall`.
 
 <p align="center">
@@ -116,16 +116,16 @@ Now the training has started. We can see how the agents train within Unity:
 
 And we can also see some numbers in the terminal:
 ```commandline
-[INFO] 3DBall. Step: 12000.  Time Elapsed: 27.143 s.  Mean Reward: 1.136.  Std of Reward: 0.710.  Training.
-[INFO] 3DBall. Step: 24000.  Time Elapsed: 44.679 s.  Mean Reward: 1.424.  Std of Reward: 0.889.  Training.
-[INFO] 3DBall. Step: 36000.  Time Elapsed: 60.184 s.  Mean Reward: 2.095.  Std of Reward: 1.211.  Training.
-[INFO] 3DBall. Step: 48000.  Time Elapsed: 74.971 s.  Mean Reward: 3.351.  Std of Reward: 2.606.  Training.
-[INFO] 3DBall. Step: 60000.  Time Elapsed: 90.024 s.  Mean Reward: 8.022.  Std of Reward: 6.551.  Training.
-[INFO] 3DBall. Step: 72000.  Time Elapsed: 104.211 s. Mean Reward: 20.102. Std of Reward: 23.587. Training.
-[INFO] 3DBall. Step: 84000.  Time Elapsed: 119.592 s. Mean Reward: 53.427. Std of Reward: 37.335. Training.
-[INFO] 3DBall. Step: 96000.  Time Elapsed: 133.754 s. Mean Reward: 80.107. Std of Reward: 29.116. Training.
-[INFO] 3DBall. Step: 108000. Time Elapsed: 147.332 s. Mean Reward: 95.433. Std of Reward: 13.151. Training.
-[INFO] 3DBall. Step: 120000. Time Elapsed: 161.466 s. Mean Reward: 90.929. Std of Reward: 23.583. Training.
+[INFO] 3DBall. Step: 12000.  Time Elapsed: 27.143 s.  Mean Reward: 1.136.  Std of Reward: 0.710.  Training
+[INFO] 3DBall. Step: 24000.  Time Elapsed: 44.679 s.  Mean Reward: 1.424.  Std of Reward: 0.889.  Training
+[INFO] 3DBall. Step: 36000.  Time Elapsed: 60.184 s.  Mean Reward: 2.095.  Std of Reward: 1.211.  Training
+[INFO] 3DBall. Step: 48000.  Time Elapsed: 74.971 s.  Mean Reward: 3.351.  Std of Reward: 2.606.  Training
+[INFO] 3DBall. Step: 60000.  Time Elapsed: 90.024 s.  Mean Reward: 8.022.  Std of Reward: 6.551.  Training
+[INFO] 3DBall. Step: 72000.  Time Elapsed: 104.211 s. Mean Reward: 20.102. Std of Reward: 23.587. Training
+[INFO] 3DBall. Step: 84000.  Time Elapsed: 119.592 s. Mean Reward: 53.427. Std of Reward: 37.335. Training
+[INFO] 3DBall. Step: 96000.  Time Elapsed: 133.754 s. Mean Reward: 80.107. Std of Reward: 29.116. Training
+[INFO] 3DBall. Step: 108000. Time Elapsed: 147.332 s. Mean Reward: 95.433. Std of Reward: 13.151. Training
+[INFO] 3DBall. Step: 120000. Time Elapsed: 161.466 s. Mean Reward: 90.929. Std of Reward: 23.583. Training
 ..
 ```
 During training, we keep track of the mean reward of the agents and its
@@ -176,5 +176,5 @@ model we previously introduced:
 
 Now by pressing play we can see the agents following the newest behavioral model:
 <p align="center">
-    <img src="./media/dummy_2.gif" width=70%">
+    <img src="./media/dummy_2.gif" width=70%"/>
 </p>
