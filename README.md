@@ -176,5 +176,5 @@ model we previously introduced:
 
 Now by pressing play we can see the agents following the newest behavioral model:
 <p align="center">
-    <img src="./media/dummy_2.gif" width=70%"/>
+    <img src="./media/dummy_2.gif" width="70%"/>
 </p>
